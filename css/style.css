@@ -18,9 +18,11 @@
     list-style: none;
 }
 body{
-    behavior: smooth;
     text-decoration: none;
     font-family: 'Work Sans', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
 }
 
 
