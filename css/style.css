@@ -18,6 +18,7 @@
     list-style: none;
 }
 body{
+    behavior: smooth;
     text-decoration: none;
     font-family: 'Work Sans', sans-serif;
 }
@@ -34,7 +35,7 @@ body{
     /* Small */
 @media (min-width: 768px) {
     .Container {
-      width: 750px;
+      width: 720px;
     }
 
 }
@@ -412,4 +413,68 @@ body{
     }
 }
 
-/* Start About Section */
+/* End About Section */
+
+/* start Contact Section */
+.Contact{
+    background: var(--section-background);
+    padding: var(--section-padding) 0;
+}
+.Contact  .contact--text{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0 50px 100px;
+}
+.Contact .contact--text p{
+    font-size: 35px;
+    font-weight: 900;
+    color: var(--secondary-color);
+    margin: 0;
+}
+.Contact .contact--text a{
+    color: var(--main-color);
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 28px;
+}
+.Contact  .contact--text .social--icons{
+    word-spacing: 1.8px;
+    position: relative;
+    top: 40px;
+    color: #333;
+    font-size: 19px;
+}
+@media (max-width:670px) {
+    .Contact .contact--text {
+        align-items: center;
+        margin-left: 0;
+    }
+    .Contact .contact--text p{
+        font-size: 20px;
+    }
+    .Contact .contact--text a{
+        font-size: 18px;
+    }
+    .Contact  .contact--text .social--icons{
+        font-size: 15px;
+    }
+    
+}
+/* start Contact Section */
+/* start Footer Section */
+.Footer{
+    text-align: center;
+    background: var(--secondary-color);
+    color: white;
+    letter-spacing: 1.7px;
+    padding: 20px;
+}
+.Footer span{
+    color: var(--main-color);
+}
+@media (max-width: px) {
+    .Footer{
+        font-size: 5px;
+    }
+}
+/* End Footer Section */
